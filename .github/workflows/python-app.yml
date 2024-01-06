@@ -5,9 +5,14 @@ name: Python application
 
 on:
   push:
-    branches: [ "main" ]
+    branches: 
+      - main
+      - ProjectSetup
+      
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
+      - ProjectSetup
 
 permissions:
   contents: read
